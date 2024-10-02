@@ -200,7 +200,6 @@ span {
 
 .fa-bars {
     display: none;
-    visibility: hidden;
 }
 
 /*GALERY*/
@@ -208,10 +207,9 @@ span {
 /*GALERY*/
 /*GALERY*/
 
-@media (max-width: 800px) {
+@media (max-width: 900px) {
     .fa-bars {
         display: flex;
-        visibility: visible;
         margin-left: auto;
         font-size: 38px;
         color: #fff;
