@@ -198,7 +198,7 @@ span {
     margin-top: 5px;
 }
 
-.fa-bars {
+.icoMenu {
     display: none;
 }
 
@@ -207,13 +207,16 @@ span {
 /*GALERY*/
 /*GALERY*/
 
-@media (max-width: 900px) {
+@media (max-width: 800px) {
     .fa-bars {
-        display: flex;
-        margin-left: auto;
-        font-size: 38px;
+        font-size: 36px;
         color: #fff;
         cursor: pointer;
+    }
+
+    .icoMenu {
+        display: flex;
+        margin-left: auto;
     }
 
     .li--item {
