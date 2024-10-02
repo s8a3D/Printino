@@ -183,13 +183,11 @@ span {
 .row {
     display: flex;
     flex-wrap: wrap;
-    padding: 40px;
 }
 
 .column {
     flex: 25%;
     padding: 5px;
-    background-color: #e0e0e0;
     border: 2px solid #ededed;
 }
 
@@ -246,10 +244,6 @@ span {
 
 
 @media (max-width: 768px) {
-    html,body {
-        overflow-x: hidden;
-    }
-
     .fa-bars {
         font-size: 36px;
         color: #fff;
@@ -275,7 +269,7 @@ span {
     .contenedor__de__listas {
         height: 0;
         opacity: 0;
-        overflow-x: hidden;
+        overflow: hidden;
         transform: translateX(-20px);
         transition: opacity 0.5s ease, transform 0.5s ease;
     }
@@ -308,7 +302,7 @@ span {
         height: 220px;
     }
     .column {
-        flex: 50%;
+        flex: 75%;
     }
 
     .footer__container {
