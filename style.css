@@ -275,7 +275,7 @@ span {
     .contenedor__de__listas {
         height: 0;
         opacity: 0;
-        overflow: hidden;
+        overflow-x: hidden;
         transform: translateX(-20px);
         transition: opacity 0.5s ease, transform 0.5s ease;
     }
