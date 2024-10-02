@@ -233,9 +233,6 @@ span {
     padding: 0 15px;
 }
 
-.footer__container h4 p {
-}
-
 .a--link {
     padding: 15px;
     text-decoration: none;
@@ -248,7 +245,11 @@ span {
 /*FOOTER*/
 
 
-@media (max-width: 800px) {
+@media (max-width: 768px) {
+    html,body {
+        overflow-x: hidden;
+    }
+
     .fa-bars {
         font-size: 36px;
         color: #fff;
@@ -272,20 +273,20 @@ span {
         border-bottom: 2px solid #fff;
     }
     .contenedor__de__listas {
-        position: absolute;
-        visibility: hidden;
+        height: 0;
         opacity: 0;
+        overflow: hidden;
         transform: translateX(-20px);
         transition: opacity 0.5s ease, transform 0.5s ease;
     }
     .active {
-        position: static;
-        visibility: visible;
+        height: auto;
         opacity: 1;
         transform: translateY(0);
         flex-wrap: wrap;
         width: 50%;
         margin: -15px 40px 20px 0;
+        overflow-x: hidden;
     }
     .list__container {
         justify-content: end;
