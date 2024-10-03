@@ -18,6 +18,8 @@ body {
 .title__container {
     padding: 10px;
     cursor: pointer;
+    position: relative;
+    display: inline-block;
 }
 
 .title {
@@ -33,6 +35,20 @@ body {
 .title:hover {
     background-color: #000f;
 }
+
+.title-span {
+    position: absolute;
+    left: 80px;
+    bottom: 8px;
+    color: #000;
+    font-size: 28px;
+    display: inline-block;
+    transform: rotate(45deg);
+    opacity: 0.8;
+    border-radius: 50%;
+}
+
+
 
 /* TITULO */
 /* TITULO */
@@ -102,7 +118,6 @@ span {
     font-style: normal;
     color: #000f00;
 }
-
 
 /*CARROUSEL*/
 /*CARROUSEL*/
@@ -314,9 +329,6 @@ span {
 
     .footer__container {
         height: 5vh;
-    }
-    .fa-bars {
-       margin-bottom: 20px;
     }
   }
   
